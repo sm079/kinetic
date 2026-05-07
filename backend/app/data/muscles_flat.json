@@ -1,0 +1,588 @@
+{
+  "data": [
+    {
+      "muscle_id": "pectoralis_major",
+      "name": "Pectoralis Major",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Chest",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "pectoralis_clavicular",
+      "name": "Upper Chest",
+      "level": "sub_muscle",
+      "parent_id": "pectoralis_major",
+      "group": "Chest",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "pectoralis_sternal",
+      "name": "Mid Chest",
+      "level": "sub_muscle",
+      "parent_id": "pectoralis_major",
+      "group": "Chest",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "pectoralis_costal",
+      "name": "Lower Chest",
+      "level": "sub_muscle",
+      "parent_id": "pectoralis_major",
+      "group": "Chest",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "pectoralis_minor",
+      "name": "Pectoralis Minor",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Chest",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "serratus_anterior",
+      "name": "Serratus Anterior",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Chest",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "latissimus_dorsi",
+      "name": "Lats",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "trapezius",
+      "name": "Trapezius",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "trapezius_upper",
+      "name": "Upper Traps",
+      "level": "sub_muscle",
+      "parent_id": "trapezius",
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "trapezius_middle",
+      "name": "Middle Traps",
+      "level": "sub_muscle",
+      "parent_id": "trapezius",
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "trapezius_lower",
+      "name": "Lower Traps",
+      "level": "sub_muscle",
+      "parent_id": "trapezius",
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "rhomboids",
+      "name": "Rhomboids",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "rhomboid_major",
+      "name": "Rhomboid Major",
+      "level": "sub_muscle",
+      "parent_id": "rhomboids",
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "rhomboid_minor",
+      "name": "Rhomboid Minor",
+      "level": "sub_muscle",
+      "parent_id": "rhomboids",
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "teres_major",
+      "name": "Teres Major",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Back",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "deltoids",
+      "name": "Deltoids",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "deltoid_anterior",
+      "name": "Front Delt",
+      "level": "sub_muscle",
+      "parent_id": "deltoids",
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "deltoid_lateral",
+      "name": "Side Delt",
+      "level": "sub_muscle",
+      "parent_id": "deltoids",
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "deltoid_posterior",
+      "name": "Rear Delt",
+      "level": "sub_muscle",
+      "parent_id": "deltoids",
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "rotator_cuff",
+      "name": "Rotator Cuff",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "supraspinatus",
+      "name": "Supraspinatus",
+      "level": "sub_muscle",
+      "parent_id": "rotator_cuff",
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "infraspinatus",
+      "name": "Infraspinatus",
+      "level": "sub_muscle",
+      "parent_id": "rotator_cuff",
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "teres_minor",
+      "name": "Teres Minor",
+      "level": "sub_muscle",
+      "parent_id": "rotator_cuff",
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "subscapularis",
+      "name": "Subscapularis",
+      "level": "sub_muscle",
+      "parent_id": "rotator_cuff",
+      "group": "Shoulders",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "biceps_brachii",
+      "name": "Biceps",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "biceps_long_head",
+      "name": "Long Head (Outer)",
+      "level": "sub_muscle",
+      "parent_id": "biceps_brachii",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "biceps_short_head",
+      "name": "Short Head (Inner)",
+      "level": "sub_muscle",
+      "parent_id": "biceps_brachii",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "brachialis",
+      "name": "Brachialis",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "triceps_brachii",
+      "name": "Triceps",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "triceps_long_head",
+      "name": "Long Head",
+      "level": "sub_muscle",
+      "parent_id": "triceps_brachii",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "triceps_lateral_head",
+      "name": "Lateral Head",
+      "level": "sub_muscle",
+      "parent_id": "triceps_brachii",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "triceps_medial_head",
+      "name": "Medial Head",
+      "level": "sub_muscle",
+      "parent_id": "triceps_brachii",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "forearms",
+      "name": "Forearms",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "brachioradialis",
+      "name": "Brachioradialis",
+      "level": "sub_muscle",
+      "parent_id": "forearms",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "wrist_flexors",
+      "name": "Wrist Flexors",
+      "level": "sub_muscle",
+      "parent_id": "forearms",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "wrist_extensors",
+      "name": "Wrist Extensors",
+      "level": "sub_muscle",
+      "parent_id": "forearms",
+      "group": "Arms",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "sternocleidomastoid",
+      "name": "Sternocleidomastoid",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Neck",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "splenius",
+      "name": "Splenius",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Neck",
+      "region": "Upper Body"
+    },
+    {
+      "muscle_id": "rectus_abdominis",
+      "name": "Rectus Abdominis (Abs)",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Abdominals",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "upper_abs",
+      "name": "Upper Abs",
+      "level": "sub_muscle",
+      "parent_id": "rectus_abdominis",
+      "group": "Abdominals",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "lower_abs",
+      "name": "Lower Abs",
+      "level": "sub_muscle",
+      "parent_id": "rectus_abdominis",
+      "group": "Abdominals",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "obliques",
+      "name": "Obliques",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Abdominals",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "external_obliques",
+      "name": "External Obliques",
+      "level": "sub_muscle",
+      "parent_id": "obliques",
+      "group": "Abdominals",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "internal_obliques",
+      "name": "Internal Obliques",
+      "level": "sub_muscle",
+      "parent_id": "obliques",
+      "group": "Abdominals",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "transversus_abdominis",
+      "name": "Transverse Abdominis",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Abdominals",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "erector_spinae",
+      "name": "Erector Spinae",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Lower Back",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "iliocostalis",
+      "name": "Iliocostalis",
+      "level": "sub_muscle",
+      "parent_id": "erector_spinae",
+      "group": "Lower Back",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "longissimus",
+      "name": "Longissimus",
+      "level": "sub_muscle",
+      "parent_id": "erector_spinae",
+      "group": "Lower Back",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "spinalis",
+      "name": "Spinalis",
+      "level": "sub_muscle",
+      "parent_id": "erector_spinae",
+      "group": "Lower Back",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "quadratus_lumborum",
+      "name": "Quadratus Lumborum (QL)",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Lower Back",
+      "region": "Core"
+    },
+    {
+      "muscle_id": "gluteus_maximus",
+      "name": "Gluteus Maximus",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Glutes",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "gluteus_medius",
+      "name": "Gluteus Medius",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Glutes",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "gluteus_minimus",
+      "name": "Gluteus Minimus",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Glutes",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "rectus_femoris",
+      "name": "Rectus Femoris",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Quadriceps",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "vastus_lateralis",
+      "name": "Vastus Lateralis (Outer Sweep)",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Quadriceps",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "vastus_medialis",
+      "name": "Vastus Medialis (Teardrop)",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Quadriceps",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "vastus_intermedius",
+      "name": "Vastus Intermedius",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Quadriceps",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "biceps_femoris",
+      "name": "Biceps Femoris",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Hamstrings",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "semitendinosus",
+      "name": "Semitendinosus",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Hamstrings",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "semimembranosus",
+      "name": "Semimembranosus",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Hamstrings",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "adductor_magnus",
+      "name": "Adductor Magnus",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Adductors (Inner Thigh)",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "adductor_longus",
+      "name": "Adductor Longus",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Adductors (Inner Thigh)",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "adductor_brevis",
+      "name": "Adductor Brevis",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Adductors (Inner Thigh)",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "pectineus",
+      "name": "Pectineus",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Adductors (Inner Thigh)",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "gracilis",
+      "name": "Gracilis",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Adductors (Inner Thigh)",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "iliopsoas",
+      "name": "Iliopsoas (Psoas & Iliacus)",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Hip Flexors",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "tensor_fasciae_latae",
+      "name": "Tensor Fasciae Latae (TFL)",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Hip Flexors",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "sartorius",
+      "name": "Sartorius",
+      "level": "sub_muscle",
+      "parent_id": null,
+      "group": "Hip Flexors",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "gastrocnemius",
+      "name": "Gastrocnemius",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Calves",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "gastrocnemius_medial",
+      "name": "Medial Head (Inner)",
+      "level": "sub_muscle",
+      "parent_id": "gastrocnemius",
+      "group": "Calves",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "gastrocnemius_lateral",
+      "name": "Lateral Head (Outer)",
+      "level": "sub_muscle",
+      "parent_id": "gastrocnemius",
+      "group": "Calves",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "soleus",
+      "name": "Soleus",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Calves",
+      "region": "Lower Body"
+    },
+    {
+      "muscle_id": "tibialis_anterior",
+      "name": "Tibialis Anterior",
+      "level": "muscle",
+      "parent_id": null,
+      "group": "Anterior Lower Leg",
+      "region": "Lower Body"
+    }
+  ]
+}

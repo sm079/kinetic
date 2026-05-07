@@ -1,0 +1,1399 @@
+{
+  "name": "The Ultimate Push Pull Legs System",
+  "tagline": "A science-based 12-week periodized 6-day PPL program for maximum hypertrophy",
+  "description": "A 12-week Push/Pull/Legs program structured across 3 progressive phases: Phase 1 (Weeks 1–6) is Base Hypertrophy with moderate volume and intensity; Phase 2 (Weeks 7–10) is High Intensity / Low Volume; Phase 3 (Weeks 11–12) is the Supercompensation phase with ultra-high volume. Train 6 days per week, rotating Push → Pull → Legs twice, with 1 full rest day.",
+  "details": {
+    "equipment": "full_gym",
+    "level": "intermediate",
+    "duration_weeks": 12,
+    "days_per_week": 6,
+    "minutes_per_workout": 75,
+    "recommended_days": ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday"]
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        {
+          "day": 1,
+          "label": "Push #1 — Chest, Shoulders, Triceps",
+          "activities": [
+            {
+              "name": "Bench Press",
+              "warm_up_sets": 4,
+              "sets": 1,
+              "reps": "3–5",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Set up a comfortable arch, quick pause on the chest and explode up on each rep."
+            },
+            {
+              "name": "Larsen Press (DB Bench Press — No Leg Drive)",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "10",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Shoulder blades retracted and depressed. Slight arch in upper back. Zero leg drive."
+            },
+            {
+              "name": "A1. Standing DB Shoulder Press (Press-Around)",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "9–10",
+              "rest": "0 min (superset with A2)",
+              "notes": "Start with elbows in front, palms facing in. Rotate dumbbells so palms face forward as you press."
+            },
+            {
+              "name": "A2. Pec Static Stretch",
+              "warm_up_sets": 0,
+              "sets": 1,
+              "reps": "30s hold",
+              "rpe": "N/A",
+              "rest": "1–2 min",
+              "notes": "Hold the pec stretch at about 7/10 intensity."
+            },
+            {
+              "name": "Cross-Body Cable Y-Raise (Side Delt)",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "12–15",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Think about swinging the cable out and up as if drawing a sword from your side."
+            },
+            {
+              "name": "Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "8 + 8",
+              "rpe": "9–10",
+              "rest": "2–3 min",
+              "notes": "Do the second half of the ROM for pressdowns (the squeeze) and the first half of the ROM for overhead extensions (the stretch)."
+            },
+            {
+              "name": "N1-Style Cross-Body Triceps Extension",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "10–12",
+              "rpe": "10",
+              "rest": "1–2 min",
+              "notes": "Extend your triceps with your arm more out to the side than a regular pressdown. Feel the stretch as the cable moves across your torso."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "label": "Pull #1 — Back, Rear Delts, Biceps",
+          "activities": [
+            {
+              "name": "Lat Pulldown — Feeder Sets",
+              "warm_up_sets": 0,
+              "sets": 4,
+              "reps": "10",
+              "rpe": "4–5 / 6–7 / 7–8 / 10",
+              "rest": "2–3 min",
+              "notes": "Gradually build weight over 4 sets. Set 1: RPE 4–5, Set 2: RPE 6–7, Set 3: RPE 7–8, Set 4: go to failure."
+            },
+            {
+              "name": "Lat Pulldown — Failure Set + Dropset",
+              "warm_up_sets": 0,
+              "sets": 1,
+              "reps": "10 + 5",
+              "rpe": "10",
+              "rest": "2–3 min",
+              "notes": "After hitting failure at ~10 reps, strip the weight back 30–50% and do another 5 reps with controlled technique."
+            },
+            {
+              "name": "Incline Chest-Supported Row (Omni-Grip)",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Use 3 different grips for the 3 working sets (ideally going from wider to closer)."
+            },
+            {
+              "name": "A1. Bottom-Half DB Lat Pullover",
+              "warm_up_sets": 1,
+              "sets": 2,
+              "reps": "12–15",
+              "rpe": "9–10",
+              "rest": "0 min (superset with A2)",
+              "notes": "Cut out the top half of the ROM; stay entirely in the stretched aspect of the lift."
+            },
+            {
+              "name": "A2. Lat Static Stretch",
+              "warm_up_sets": 0,
+              "sets": 1,
+              "reps": "30s hold",
+              "rpe": "N/A",
+              "rest": "1–2 min",
+              "notes": "Hold the lat stretch at about 7/10 intensity."
+            },
+            {
+              "name": "Omni-Direction Face Pull",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "1st set: low-to-high. 2nd set: mid-range. 3rd set: high-to-low."
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "6–8",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Focus on contracting your biceps; minimize torso momentum."
+            },
+            {
+              "name": "Bottom-Half Preacher Curl",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "10–12",
+              "rpe": "10",
+              "rest": "1–2 min",
+              "notes": "Cut out the top half of the ROM; stay entirely in the stretched aspect of the lift."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "label": "Legs #1 — Quads, Hamstrings, Calves, Core",
+          "activities": [
+            {
+              "name": "Squat",
+              "warm_up_sets": 4,
+              "sets": 1,
+              "reps": "2–4",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Sit back and down; keep your upper back tight to the bar."
+            },
+            {
+              "name": "Pause Squat (Back-Off Set)",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "5",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Drop weight ~25% from top set. 2-second pause at the bottom. Sit back and down, upper back tight."
+            },
+            {
+              "name": "45° Hyperextension / Barbell RDL",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Maintain a neutral lower back; set your hips back; don't allow your spine to round."
+            },
+            {
+              "name": "Walking Lunge",
+              "warm_up_sets": 1,
+              "sets": 2,
+              "reps": "10",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Take medium strides; minimize the amount you push off your rear leg."
+            },
+            {
+              "name": "Seated Leg Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Focus on squeezing your hamstrings to move the weight."
+            },
+            {
+              "name": "Leg Press Toe Press (Calf Raises)",
+              "warm_up_sets": 1,
+              "sets": 4,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Press all the way up to your toes; stretch your calves at the bottom; don't bounce."
+            },
+            {
+              "name": "Cable Crunch",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Hold a plate or DB to your chest and crunch hard."
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "label": "Push #2 — Chest, Shoulders, Triceps",
+          "activities": [
+            {
+              "name": "Close-Grip Barbell Incline Press",
+              "warm_up_sets": 3,
+              "sets": 3,
+              "reps": "8 / 5 / 12",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Wave-load the reps: heavy set of 8, heavier set of 5, then a back-off set of 12."
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Don't stop between reps; keep smooth and controlled tension on the delts."
+            },
+            {
+              "name": "Floor Skull Crusher",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "6–8",
+              "rpe": "8–9",
+              "rest": "1–2 min",
+              "notes": "Keep upper arms perpendicular to the floor; fully extend at the top."
+            },
+            {
+              "name": "Pec Deck",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "5 + 15",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "5 full reps followed immediately by 15 partial reps in the stretched position."
+            },
+            {
+              "name": "DB Lateral Raise",
+              "warm_up_sets": 1,
+              "sets": 2,
+              "reps": "15–20",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Lead with your elbows; squeeze at the top."
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "label": "Pull #2 — Back, Rear Delts, Biceps",
+          "activities": [
+            {
+              "name": "Pull-Up (1 AMRAP Set)",
+              "warm_up_sets": 2,
+              "sets": 1,
+              "reps": "AMRAP",
+              "rpe": "10",
+              "rest": "2–3 min",
+              "notes": "Go to absolute failure. Record your rep count each week for progressive overload tracking."
+            },
+            {
+              "name": "Kroc Row",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "12–15",
+              "rpe": "8–9",
+              "rest": "1–2 min",
+              "notes": "Keep chest tall; keep elbow tucked in close to your torso; focus on the lat contraction."
+            },
+            {
+              "name": "Cable Shrug-In",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Pull your shoulder blades together and down at the top of the movement."
+            },
+            {
+              "name": "Reverse Pec Deck (Rear Delt Fly)",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Focus on rear delt contraction; avoid using traps to swing the weight."
+            },
+            {
+              "name": "N1-Style Cross-Body Cable Bicep Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Curl across your torso to hit both the short and long head. Control the negative."
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "Legs #2 — Hamstrings, Glutes, Quads, Calves, Core",
+          "activities": [
+            {
+              "name": "Deadlift",
+              "warm_up_sets": 4,
+              "sets": 1,
+              "reps": "3–5",
+              "rpe": "8–9",
+              "rest": "3–5 min",
+              "notes": "Brace hard, push the floor away, keep your lats tight to protect your lower back."
+            },
+            {
+              "name": "Stiff-Leg Deadlift",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "8–10",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Maintain a neutral lower back; hinge at the hips and feel the stretch in the hamstrings."
+            },
+            {
+              "name": "Leg Press",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Use a controlled full range of motion; don't lock out your knees aggressively at the top."
+            },
+            {
+              "name": "Glute-Ham Raise (GHR) / Nordic Ham Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Keep your hips straight; focus on hamstring contraction throughout the movement."
+            },
+            {
+              "name": "Leg Extension",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Control the weight with a 3–4 second negative on each rep."
+            },
+            {
+              "name": "Seated Calf Raise",
+              "warm_up_sets": 1,
+              "sets": 4,
+              "reps": "15–20",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Press all the way up; get a full stretch at the bottom; don't bounce."
+            },
+            {
+              "name": "Roman Chair Leg Raise",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–20",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Keep your lower back pressed into the pad; control the movement throughout."
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "Rest Day",
+          "activities": []
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "days": [
+        {
+          "day": 1,
+          "label": "Push #1 — Chest, Shoulders, Triceps",
+          "activities": [
+            {
+              "name": "Bench Press",
+              "warm_up_sets": 4,
+              "sets": 1,
+              "reps": "3–5",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Add 2.5–5 lbs over Week 1. Same technique: comfortable arch, quick pause, explode up."
+            },
+            {
+              "name": "Larsen Press (DB Bench Press — No Leg Drive)",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "10",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Increase load slightly if Week 1 felt easy. Zero leg drive."
+            },
+            {
+              "name": "A1. Standing DB Shoulder Press (Press-Around)",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "9–10",
+              "rest": "0 min (superset with A2)",
+              "notes": "Progressive overload: use slightly heavier DBs or add 1 rep vs Week 1."
+            },
+            {
+              "name": "A2. Pec Static Stretch",
+              "warm_up_sets": 0,
+              "sets": 1,
+              "reps": "30s hold",
+              "rpe": "N/A",
+              "rest": "1–2 min",
+              "notes": "Hold at 7/10 intensity."
+            },
+            {
+              "name": "Cross-Body Cable Y-Raise (Side Delt)",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "12–15",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Swing the cable out and up as if drawing a sword."
+            },
+            {
+              "name": "Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Triceps Extension",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "8 + 8",
+              "rpe": "9–10",
+              "rest": "2–3 min",
+              "notes": "Maintain strong technique; add a small amount of load if possible."
+            },
+            {
+              "name": "N1-Style Cross-Body Triceps Extension",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "10–12",
+              "rpe": "10",
+              "rest": "1–2 min",
+              "notes": "Extend your triceps with your arm out to the side to maximize the stretch."
+            }
+          ]
+        },
+        {
+          "day": 2,
+          "label": "Pull #1 — Back, Rear Delts, Biceps",
+          "activities": [
+            {
+              "name": "Lat Pulldown — Feeder Sets",
+              "warm_up_sets": 0,
+              "sets": 4,
+              "reps": "10",
+              "rpe": "4–5 / 6–7 / 7–8 / 10",
+              "rest": "2–3 min",
+              "notes": "Build progressively. Final set to failure. Aim for one more rep on your last set vs Week 1."
+            },
+            {
+              "name": "Lat Pulldown — Failure Set + Dropset",
+              "warm_up_sets": 0,
+              "sets": 1,
+              "reps": "10 + 5",
+              "rpe": "10",
+              "rest": "2–3 min",
+              "notes": "Dropset: strip 30–50% of load and do 5 controlled reps."
+            },
+            {
+              "name": "Incline Chest-Supported Row (Omni-Grip)",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Vary grip: wide, neutral, close."
+            },
+            {
+              "name": "A1. Bottom-Half DB Lat Pullover",
+              "warm_up_sets": 1,
+              "sets": 2,
+              "reps": "12–15",
+              "rpe": "9–10",
+              "rest": "0 min (superset with A2)",
+              "notes": "Stay in the stretched bottom half of the ROM."
+            },
+            {
+              "name": "A2. Lat Static Stretch",
+              "warm_up_sets": 0,
+              "sets": 1,
+              "reps": "30s hold",
+              "rpe": "N/A",
+              "rest": "1–2 min",
+              "notes": "7/10 intensity."
+            },
+            {
+              "name": "Omni-Direction Face Pull",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "3 angle variations across 3 sets."
+            },
+            {
+              "name": "EZ-Bar Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "6–8",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Minimize torso swing; add load if able to."
+            },
+            {
+              "name": "Bottom-Half Preacher Curl",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "10–12",
+              "rpe": "10",
+              "rest": "1–2 min",
+              "notes": "Stay in the stretch; control the negative."
+            }
+          ]
+        },
+        {
+          "day": 3,
+          "label": "Legs #1 — Quads, Hamstrings, Calves, Core",
+          "activities": [
+            {
+              "name": "Squat",
+              "warm_up_sets": 4,
+              "sets": 1,
+              "reps": "2–4",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Add 5 lbs over Week 1 if form was clean."
+            },
+            {
+              "name": "Pause Squat (Back-Off Set)",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "5",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "2-second pause at bottom. Match or slightly exceed Week 1 load."
+            },
+            {
+              "name": "45° Hyperextension / Barbell RDL",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Neutral lower back; hips set back."
+            },
+            {
+              "name": "Walking Lunge",
+              "warm_up_sets": 1,
+              "sets": 2,
+              "reps": "10",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Medium strides; minimize push-off from rear leg."
+            },
+            {
+              "name": "Seated Leg Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Squeeze your hamstrings at the top."
+            },
+            {
+              "name": "Leg Press Toe Press (Calf Raises)",
+              "warm_up_sets": 1,
+              "sets": 4,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Full range; full stretch at bottom; don't bounce."
+            },
+            {
+              "name": "Cable Crunch",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Crunch hard at the bottom."
+            }
+          ]
+        },
+        {
+          "day": 4,
+          "label": "Push #2 — Chest, Shoulders, Triceps",
+          "activities": [
+            {
+              "name": "Close-Grip Barbell Incline Press",
+              "warm_up_sets": 3,
+              "sets": 3,
+              "reps": "8 / 5 / 12",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Wave loading: increase all loads by 2.5–5 lbs over Week 1."
+            },
+            {
+              "name": "Machine Shoulder Press",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Controlled tension; no lockout."
+            },
+            {
+              "name": "Floor Skull Crusher",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "6–8",
+              "rpe": "8–9",
+              "rest": "1–2 min",
+              "notes": "Keep upper arms perpendicular to the floor."
+            },
+            {
+              "name": "Pec Deck",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "5 + 15",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "5 full reps + 15 partials in the stretch."
+            },
+            {
+              "name": "DB Lateral Raise",
+              "warm_up_sets": 1,
+              "sets": 2,
+              "reps": "15–20",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Lead with elbows; squeeze at the top."
+            }
+          ]
+        },
+        {
+          "day": 5,
+          "label": "Pull #2 — Back, Rear Delts, Biceps",
+          "activities": [
+            {
+              "name": "Pull-Up (1 AMRAP Set)",
+              "warm_up_sets": 2,
+              "sets": 1,
+              "reps": "AMRAP",
+              "rpe": "10",
+              "rest": "2–3 min",
+              "notes": "Aim to beat your Week 1 rep count."
+            },
+            {
+              "name": "Kroc Row",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "12–15",
+              "rpe": "8–9",
+              "rest": "1–2 min",
+              "notes": "Chest tall; elbow close to torso; lat contraction focus."
+            },
+            {
+              "name": "Cable Shrug-In",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Full scapular retraction and depression."
+            },
+            {
+              "name": "Reverse Pec Deck (Rear Delt Fly)",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Rear delt focus; don't use your traps."
+            },
+            {
+              "name": "N1-Style Cross-Body Cable Bicep Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Curl across your torso; control the negative."
+            }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "Legs #2 — Hamstrings, Glutes, Quads, Calves, Core",
+          "activities": [
+            {
+              "name": "Deadlift",
+              "warm_up_sets": 4,
+              "sets": 1,
+              "reps": "3–5",
+              "rpe": "8–9",
+              "rest": "3–5 min",
+              "notes": "Add 5 lbs over Week 1 if form was clean."
+            },
+            {
+              "name": "Stiff-Leg Deadlift",
+              "warm_up_sets": 0,
+              "sets": 2,
+              "reps": "8–10",
+              "rpe": "8–9",
+              "rest": "3–4 min",
+              "notes": "Neutral spine; full hamstring stretch."
+            },
+            {
+              "name": "Leg Press",
+              "warm_up_sets": 2,
+              "sets": 3,
+              "reps": "10–12",
+              "rpe": "8–9",
+              "rest": "2–3 min",
+              "notes": "Full ROM; controlled descent."
+            },
+            {
+              "name": "Glute-Ham Raise (GHR) / Nordic Ham Curl",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Hips straight throughout."
+            },
+            {
+              "name": "Leg Extension",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "8–10",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "3–4 second negative."
+            },
+            {
+              "name": "Seated Calf Raise",
+              "warm_up_sets": 1,
+              "sets": 4,
+              "reps": "15–20",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Full stretch at bottom."
+            },
+            {
+              "name": "Roman Chair Leg Raise",
+              "warm_up_sets": 1,
+              "sets": 3,
+              "reps": "10–20",
+              "rpe": "9–10",
+              "rest": "1–2 min",
+              "notes": "Lower back pressed into the pad."
+            }
+          ]
+        },
+        {
+          "day": 7,
+          "label": "Rest Day",
+          "activities": []
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        { "day": 1, "label": "Push #1 — Chest, Shoulders, Triceps (same exercises as Week 1–2; add load)", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "8–9", "rest": "3–4 min", "notes": "Progressive overload: beat Week 2 by 2.5–5 lbs or 1 rep." },
+            { "name": "Larsen Press", "warm_up_sets": 0, "sets": 2, "reps": "10", "rpe": "9", "rest": "3–4 min", "notes": "Increase load if RPE allows." },
+            { "name": "A1. Standing DB Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "0 min (superset)", "notes": "Progressive overload." },
+            { "name": "A2. Pec Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Cross-Body Cable Y-Raise", "warm_up_sets": 0, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Extension", "warm_up_sets": 1, "sets": 3, "reps": "8 + 8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Triceps Extension", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Back, Rear Delts, Biceps (same exercises; add load)", "activities": [
+            { "name": "Lat Pulldown — Feeder Sets", "warm_up_sets": 0, "sets": 4, "reps": "10", "rpe": "4–10", "rest": "2–3 min", "notes": "Beat Week 2 on final set." },
+            { "name": "Lat Pulldown — Failure Set + Dropset", "warm_up_sets": 0, "sets": 1, "reps": "10 + 5", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Incline Chest-Supported Row (Omni-Grip)", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Bottom-Half DB Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Lat Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Omni-Direction Face Pull", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Bottom-Half Preacher Curl", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Quads, Hamstrings, Calves, Core (same exercises; add load)", "activities": [
+            { "name": "Squat", "warm_up_sets": 4, "sets": 1, "reps": "2–4", "rpe": "8–9", "rest": "3–4 min", "notes": "" },
+            { "name": "Pause Squat", "warm_up_sets": 0, "sets": 2, "reps": "5", "rpe": "8–9", "rest": "3–4 min", "notes": "" },
+            { "name": "45° Hyperextension / Barbell RDL", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Walking Lunge", "warm_up_sets": 1, "sets": 2, "reps": "10", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Crunch", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Chest, Shoulders, Triceps (same exercises; add load)", "activities": [
+            { "name": "Close-Grip Barbell Incline Press", "warm_up_sets": 3, "sets": 3, "reps": "8 / 5 / 12", "rpe": "8–9", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Floor Skull Crusher", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "8–9", "rest": "1–2 min", "notes": "" },
+            { "name": "Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "5 + 15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Back, Rear Delts, Biceps (same exercises; add load)", "activities": [
+            { "name": "Pull-Up (1 AMRAP Set)", "warm_up_sets": 2, "sets": 1, "reps": "AMRAP", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Kroc Row", "warm_up_sets": 1, "sets": 3, "reps": "12–15", "rpe": "8–9", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Shrug-In", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Reverse Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Cable Bicep Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Hamstrings, Glutes, Quads, Calves, Core (same exercises; add load)", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "8–9", "rest": "3–5 min", "notes": "" },
+            { "name": "Stiff-Leg Deadlift", "warm_up_sets": 0, "sets": 2, "reps": "8–10", "rpe": "8–9", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Roman Chair Leg Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 4,
+      "days": [
+        { "day": 1, "label": "Push #1 — Phase 1 Week 4 (increase load/RPE toward 9)", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "9", "rest": "3–4 min", "notes": "Push closer to true max today. Aim for a 5-lb PR." },
+            { "name": "Larsen Press", "warm_up_sets": 0, "sets": 2, "reps": "10", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "A1. Standing DB Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Pec Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Cross-Body Cable Y-Raise", "warm_up_sets": 0, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Squeeze-Only Triceps Pressdown + Stretch-Only Overhead Extension", "warm_up_sets": 1, "sets": 3, "reps": "8 + 8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Triceps Extension", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Phase 1 Week 4", "activities": [
+            { "name": "Lat Pulldown — Feeder Sets", "warm_up_sets": 0, "sets": 4, "reps": "10", "rpe": "4–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Lat Pulldown — Failure Set + Dropset", "warm_up_sets": 0, "sets": 1, "reps": "10 + 5", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Incline Chest-Supported Row (Omni-Grip)", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Bottom-Half DB Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Lat Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Omni-Direction Face Pull", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Bottom-Half Preacher Curl", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Phase 1 Week 4", "activities": [
+            { "name": "Squat", "warm_up_sets": 4, "sets": 1, "reps": "2–4", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "Pause Squat", "warm_up_sets": 0, "sets": 2, "reps": "5", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "45° Hyperextension / Barbell RDL", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Walking Lunge", "warm_up_sets": 1, "sets": 2, "reps": "10", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Crunch", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Phase 1 Week 4", "activities": [
+            { "name": "Close-Grip Barbell Incline Press", "warm_up_sets": 3, "sets": 3, "reps": "8 / 5 / 12", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Floor Skull Crusher", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "9", "rest": "1–2 min", "notes": "" },
+            { "name": "Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "5 + 15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Phase 1 Week 4", "activities": [
+            { "name": "Pull-Up (1 AMRAP Set)", "warm_up_sets": 2, "sets": 1, "reps": "AMRAP", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Kroc Row", "warm_up_sets": 1, "sets": 3, "reps": "12–15", "rpe": "9", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Shrug-In", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Reverse Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Cable Bicep Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Phase 1 Week 4", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "9", "rest": "3–5 min", "notes": "" },
+            { "name": "Stiff-Leg Deadlift", "warm_up_sets": 0, "sets": 2, "reps": "8–10", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Roman Chair Leg Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 5,
+      "days": [
+        { "day": 1, "label": "Push #1 — Phase 1 Week 5", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "9", "rest": "3–4 min", "notes": "Continue adding load." },
+            { "name": "Larsen Press", "warm_up_sets": 0, "sets": 2, "reps": "10", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "A1. Standing DB Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Pec Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Cross-Body Cable Y-Raise", "warm_up_sets": 0, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Squeeze-Only Triceps Pressdown + Stretch-Only OH Tricep Extension", "warm_up_sets": 1, "sets": 3, "reps": "8 + 8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Triceps Extension", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Phase 1 Week 5", "activities": [
+            { "name": "Lat Pulldown — Feeder Sets", "warm_up_sets": 0, "sets": 4, "reps": "10", "rpe": "4–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Lat Pulldown — Failure Set + Dropset", "warm_up_sets": 0, "sets": 1, "reps": "10 + 5", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Incline Chest-Supported Row (Omni-Grip)", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Bottom-Half DB Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Lat Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Omni-Direction Face Pull", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Bottom-Half Preacher Curl", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Phase 1 Week 5", "activities": [
+            { "name": "Squat", "warm_up_sets": 4, "sets": 1, "reps": "2–4", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "Pause Squat", "warm_up_sets": 0, "sets": 2, "reps": "5", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "45° Hyperextension / Barbell RDL", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Walking Lunge", "warm_up_sets": 1, "sets": 2, "reps": "10", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Crunch", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Phase 1 Week 5", "activities": [
+            { "name": "Close-Grip Barbell Incline Press", "warm_up_sets": 3, "sets": 3, "reps": "8 / 5 / 12", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Floor Skull Crusher", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "9", "rest": "1–2 min", "notes": "" },
+            { "name": "Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "5 + 15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Phase 1 Week 5", "activities": [
+            { "name": "Pull-Up (1 AMRAP Set)", "warm_up_sets": 2, "sets": 1, "reps": "AMRAP", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Kroc Row", "warm_up_sets": 1, "sets": 3, "reps": "12–15", "rpe": "9", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Shrug-In", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Reverse Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Cable Bicep Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Phase 1 Week 5", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "9", "rest": "3–5 min", "notes": "" },
+            { "name": "Stiff-Leg Deadlift", "warm_up_sets": 0, "sets": 2, "reps": "8–10", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Roman Chair Leg Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 6,
+      "days": [
+        { "day": 1, "label": "Push #1 — Phase 1 Week 6 (Peak Week)", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "9–10", "rest": "3–4 min", "notes": "Final week of Phase 1. Push for a top-end effort. Deload next week." },
+            { "name": "Larsen Press", "warm_up_sets": 0, "sets": 2, "reps": "10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "A1. Standing DB Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Pec Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Cross-Body Cable Y-Raise", "warm_up_sets": 0, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Squeeze-Only Triceps Pressdown + Stretch-Only OH Tricep Extension", "warm_up_sets": 1, "sets": 3, "reps": "8 + 8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Triceps Extension", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Phase 1 Week 6 (Peak Week)", "activities": [
+            { "name": "Lat Pulldown — Feeder Sets", "warm_up_sets": 0, "sets": 4, "reps": "10", "rpe": "4–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Lat Pulldown — Failure Set + Dropset", "warm_up_sets": 0, "sets": 1, "reps": "10 + 5", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Incline Chest-Supported Row (Omni-Grip)", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Bottom-Half DB Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "12–15", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Lat Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Omni-Direction Face Pull", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Bottom-Half Preacher Curl", "warm_up_sets": 0, "sets": 2, "reps": "10–12", "rpe": "10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Phase 1 Week 6 (Peak Week)", "activities": [
+            { "name": "Squat", "warm_up_sets": 4, "sets": 1, "reps": "2–4", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Pause Squat", "warm_up_sets": 0, "sets": 2, "reps": "5", "rpe": "9", "rest": "3–4 min", "notes": "" },
+            { "name": "45° Hyperextension / Barbell RDL", "warm_up_sets": 2, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Walking Lunge", "warm_up_sets": 1, "sets": 2, "reps": "10", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Crunch", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Phase 1 Week 6 (Peak Week)", "activities": [
+            { "name": "Close-Grip Barbell Incline Press", "warm_up_sets": 3, "sets": 3, "reps": "8 / 5 / 12", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Shoulder Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Floor Skull Crusher", "warm_up_sets": 1, "sets": 3, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "5 + 15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Phase 1 Week 6 (Peak Week)", "activities": [
+            { "name": "Pull-Up (1 AMRAP Set)", "warm_up_sets": 2, "sets": 1, "reps": "AMRAP", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Kroc Row", "warm_up_sets": 1, "sets": 3, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Shrug-In", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Reverse Pec Deck", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Cable Bicep Curl", "warm_up_sets": 1, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Phase 1 Week 6 (Peak Week)", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "3–5", "rpe": "9–10", "rest": "3–5 min", "notes": "" },
+            { "name": "Stiff-Leg Deadlift", "warm_up_sets": 0, "sets": 2, "reps": "8–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 3, "reps": "8–10", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Roman Chair Leg Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 7,
+      "days": [
+        {
+          "day": 1,
+          "label": "Push #1 — Phase 2: High Intensity / Low Volume",
+          "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "Phase 2: Ultra-high intensity. Lower volume, heavier loads, longer rest. Push to near-max effort." },
+            { "name": "Incline DB Press", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Chest Press", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Triceps Pressdown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB French Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 2,
+          "label": "Pull #1 — Phase 2: High Intensity / Low Volume",
+          "activities": [
+            { "name": "Pendlay Row", "warm_up_sets": 3, "sets": 1, "reps": "3–5", "rpe": "9–10", "rest": "4–5 min", "notes": "Explosive concentric, controlled eccentric. Full reset on the floor between reps." },
+            { "name": "Neutral-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Pulldown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Meadows Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "Pull your elbows down against your sides." },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Hammer Cheat Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 3,
+          "label": "Legs #1 — Phase 2: High Intensity / Low Volume",
+          "activities": [
+            { "name": "Squat or Machine Squat", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "Heavy, near-maximal effort." },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Goblet Squat", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 4,
+          "label": "Push #2 — Phase 2: High Intensity / Low Volume",
+          "activities": [
+            { "name": "Close-Grip Incline Machine Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated DB Shoulder Press / Arnold Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Bench Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 5,
+          "label": "Pull #2 — Phase 2: High Intensity / Low Volume",
+          "activities": [
+            { "name": "Wide-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Single-Arm Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Cable Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Curl", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "Legs #2 — Phase 2: High Intensity / Low Volume",
+          "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "Heavy pull. Near-maximal effort." },
+            { "name": "Barbell Hip Thrust", "warm_up_sets": 2, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 8,
+      "days": [
+        { "day": 1, "label": "Push #1 — Phase 2 Week 8 (same as Week 7; add load)", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Incline DB Press", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Chest Press", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Triceps Pressdown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB French Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Phase 2 Week 8", "activities": [
+            { "name": "Pendlay Row", "warm_up_sets": 3, "sets": 1, "reps": "3–5", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Neutral-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Pulldown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Meadows Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Hammer Cheat Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Phase 2 Week 8", "activities": [
+            { "name": "Squat or Machine Squat", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Goblet Squat", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Phase 2 Week 8", "activities": [
+            { "name": "Close-Grip Incline Machine Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated DB Shoulder Press / Arnold Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Bench Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Phase 2 Week 8", "activities": [
+            { "name": "Wide-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Single-Arm Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Cable Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Curl", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Phase 2 Week 8", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Barbell Hip Thrust", "warm_up_sets": 2, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 9,
+      "days": [
+        { "day": 1, "label": "Push #1 — Phase 2 Week 9 (add load)", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Incline DB Press", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Chest Press", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Triceps Pressdown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB French Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Phase 2 Week 9", "activities": [
+            { "name": "Pendlay Row", "warm_up_sets": 3, "sets": 1, "reps": "3–5", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Neutral-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Pulldown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Meadows Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Hammer Cheat Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Phase 2 Week 9", "activities": [
+            { "name": "Squat or Machine Squat", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Goblet Squat", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Phase 2 Week 9", "activities": [
+            { "name": "Close-Grip Incline Machine Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated DB Shoulder Press / Arnold Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Bench Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Phase 2 Week 9", "activities": [
+            { "name": "Wide-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Single-Arm Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Cable Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Curl", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Phase 2 Week 9", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "9–10", "rest": "4–5 min", "notes": "" },
+            { "name": "Barbell Hip Thrust", "warm_up_sets": 2, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 10,
+      "days": [
+        { "day": 1, "label": "Push #1 — Phase 2 Week 10 (Final High-Intensity Week — peak effort)", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "10", "rest": "5 min", "notes": "Max effort. Final high-intensity session before Phase 3 supercompensation." },
+            { "name": "Incline DB Press", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Chest Press", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Triceps Pressdown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB French Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Phase 2 Week 10", "activities": [
+            { "name": "Pendlay Row", "warm_up_sets": 3, "sets": 1, "reps": "3–5", "rpe": "10", "rest": "5 min", "notes": "" },
+            { "name": "Neutral-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Pulldown", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Meadows Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Hammer Cheat Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–8", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Phase 2 Week 10", "activities": [
+            { "name": "Squat or Machine Squat", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "10", "rest": "5 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Goblet Squat", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Phase 2 Week 10", "activities": [
+            { "name": "Close-Grip Incline Machine Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Machine Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated DB Shoulder Press / Arnold Press", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 1, "sets": 2, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Bench Press", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Phase 2 Week 10", "activities": [
+            { "name": "Wide-Grip Pull-Up", "warm_up_sets": 2, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Single-Arm Row", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Cable Lat Pullover", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "DB Curl", "warm_up_sets": 1, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Curl", "warm_up_sets": 1, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Phase 2 Week 10", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 4, "sets": 1, "reps": "1–3", "rpe": "10", "rest": "5 min", "notes": "" },
+            { "name": "Barbell Hip Thrust", "warm_up_sets": 2, "sets": 2, "reps": "8–12", "rpe": "9–10", "rest": "3–4 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 2, "sets": 2, "reps": "10–15", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 1, "sets": 2, "reps": "6–10", "rpe": "9–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 1, "sets": 3, "reps": "10–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 11,
+      "days": [
+        {
+          "day": 1,
+          "label": "Push #1 — Phase 3: Supercompensation (Ultra-High Volume)",
+          "activities": [
+            { "name": "Bench Press", "warm_up_sets": 2, "sets": 3, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "Phase 3: Ultra-high volume with moderate-high intensity. Use Phase 1 exercise selection. Expect fatigue — that's the point." },
+            { "name": "Larsen Press", "warm_up_sets": 0, "sets": 3, "reps": "12–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Standing DB Shoulder Press", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Pec Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Cross-Body Cable Y-Raise", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Squeeze-Only Triceps Pressdown + Stretch-Only OH Tricep Extension", "warm_up_sets": 1, "sets": 4, "reps": "12 + 12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Triceps Extension", "warm_up_sets": 0, "sets": 3, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 2,
+          "label": "Pull #1 — Phase 3: Supercompensation (Ultra-High Volume)",
+          "activities": [
+            { "name": "Lat Pulldown — Feeder Sets", "warm_up_sets": 0, "sets": 4, "reps": "10", "rpe": "4–10", "rest": "2–3 min", "notes": "Same feeder + failure structure." },
+            { "name": "Lat Pulldown — Failure Set + Dropset", "warm_up_sets": 0, "sets": 1, "reps": "10 + 5", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Incline Chest-Supported Row (Omni-Grip)", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Bottom-Half DB Lat Pullover", "warm_up_sets": 0, "sets": 3, "reps": "15–20", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Lat Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Omni-Direction Face Pull", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Bottom-Half Preacher Curl", "warm_up_sets": 0, "sets": 3, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 3,
+          "label": "Legs #1 — Phase 3: Supercompensation (Ultra-High Volume)",
+          "activities": [
+            { "name": "Squat", "warm_up_sets": 3, "sets": 3, "reps": "8–10", "rpe": "8–9", "rest": "2–3 min", "notes": "Volume tripled vs Phase 2. Use a moderate weight and focus on technique." },
+            { "name": "Pause Squat", "warm_up_sets": 0, "sets": 3, "reps": "8", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Barbell RDL", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Walking Lunge", "warm_up_sets": 1, "sets": 3, "reps": "12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 5, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Crunch", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 4,
+          "label": "Push #2 — Phase 3: Supercompensation (Ultra-High Volume)",
+          "activities": [
+            { "name": "Close-Grip Barbell Incline Press", "warm_up_sets": 2, "sets": 4, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Machine Shoulder Press", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Floor Skull Crusher", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "8–9", "rest": "1–2 min", "notes": "" },
+            { "name": "Pec Deck", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 0, "sets": 4, "reps": "20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 5,
+          "label": "Pull #2 — Phase 3: Supercompensation (Ultra-High Volume)",
+          "activities": [
+            { "name": "Pull-Up (AMRAP Sets)", "warm_up_sets": 2, "sets": 3, "reps": "AMRAP", "rpe": "10", "rest": "2–3 min", "notes": "Three AMRAP sets in Phase 3." },
+            { "name": "Kroc Row", "warm_up_sets": 1, "sets": 4, "reps": "15–20", "rpe": "8–9", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Shrug-In", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "8–9", "rest": "1–2 min", "notes": "" },
+            { "name": "Reverse Pec Deck", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Cable Bicep Curl", "warm_up_sets": 0, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        {
+          "day": 6,
+          "label": "Legs #2 — Phase 3: Supercompensation (Ultra-High Volume)",
+          "activities": [
+            { "name": "Deadlift", "warm_up_sets": 3, "sets": 3, "reps": "6–8", "rpe": "8–9", "rest": "3–4 min", "notes": "Volume-focused deadlift. Keep technique crisp." },
+            { "name": "Stiff-Leg Deadlift", "warm_up_sets": 0, "sets": 3, "reps": "10–12", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "8–9", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 0, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 0, "sets": 5, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Roman Chair Leg Raise", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+          ]
+        },
+        { "day": 7, "label": "Rest Day", "activities": [] }
+      ]
+    },
+    {
+      "week": 12,
+      "days": [
+        { "day": 1, "label": "Push #1 — Phase 3 Week 12 (Final Week — Ultra-High Volume)", "activities": [
+            { "name": "Bench Press", "warm_up_sets": 2, "sets": 4, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "Final week. High volume and high effort. After this you can restart the program with higher starting loads." },
+            { "name": "Larsen Press", "warm_up_sets": 0, "sets": 3, "reps": "12–15", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Standing DB Shoulder Press", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Pec Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Cross-Body Cable Y-Raise", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Squeeze-Only Triceps Pressdown + Stretch-Only OH Tricep Extension", "warm_up_sets": 1, "sets": 4, "reps": "12 + 12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Triceps Extension", "warm_up_sets": 0, "sets": 3, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 2, "label": "Pull #1 — Phase 3 Week 12", "activities": [
+            { "name": "Lat Pulldown — Feeder Sets", "warm_up_sets": 0, "sets": 4, "reps": "10", "rpe": "4–10", "rest": "2–3 min", "notes": "" },
+            { "name": "Lat Pulldown — Failure Set + Dropset", "warm_up_sets": 0, "sets": 1, "reps": "10 + 5", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Incline Chest-Supported Row (Omni-Grip)", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "A1. Bottom-Half DB Lat Pullover", "warm_up_sets": 0, "sets": 3, "reps": "15–20", "rpe": "9–10", "rest": "0 min (superset)", "notes": "" },
+            { "name": "A2. Lat Static Stretch", "warm_up_sets": 0, "sets": 1, "reps": "30s hold", "rpe": "N/A", "rest": "1–2 min", "notes": "" },
+            { "name": "Omni-Direction Face Pull", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "EZ-Bar Curl", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Bottom-Half Preacher Curl", "warm_up_sets": 0, "sets": 3, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 3, "label": "Legs #1 — Phase 3 Week 12", "activities": [
+            { "name": "Squat", "warm_up_sets": 3, "sets": 4, "reps": "8–10", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Pause Squat", "warm_up_sets": 0, "sets": 3, "reps": "8", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Barbell RDL", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Walking Lunge", "warm_up_sets": 1, "sets": 4, "reps": "12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Seated Leg Curl", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Press Toe Press (Calf Raises)", "warm_up_sets": 1, "sets": 5, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Crunch", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 4, "label": "Push #2 — Phase 3 Week 12", "activities": [
+            { "name": "Close-Grip Barbell Incline Press", "warm_up_sets": 2, "sets": 4, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Machine Shoulder Press", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Floor Skull Crusher", "warm_up_sets": 1, "sets": 4, "reps": "10–12", "rpe": "9", "rest": "1–2 min", "notes": "" },
+            { "name": "Pec Deck", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "DB Lateral Raise", "warm_up_sets": 0, "sets": 4, "reps": "20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 5, "label": "Pull #2 — Phase 3 Week 12", "activities": [
+            { "name": "Pull-Up (AMRAP Sets)", "warm_up_sets": 2, "sets": 3, "reps": "AMRAP", "rpe": "10", "rest": "2–3 min", "notes": "" },
+            { "name": "Kroc Row", "warm_up_sets": 1, "sets": 4, "reps": "15–20", "rpe": "9", "rest": "1–2 min", "notes": "" },
+            { "name": "Cable Shrug-In", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9", "rest": "1–2 min", "notes": "" },
+            { "name": "Reverse Pec Deck", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "N1-Style Cross-Body Cable Bicep Curl", "warm_up_sets": 0, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 6, "label": "Legs #2 — Phase 3 Week 12 (Final Session)", "activities": [
+            { "name": "Deadlift", "warm_up_sets": 3, "sets": 3, "reps": "6–8", "rpe": "9", "rest": "3–4 min", "notes": "Final session of the program. Finish strong." },
+            { "name": "Stiff-Leg Deadlift", "warm_up_sets": 0, "sets": 3, "reps": "10–12", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Leg Press", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9", "rest": "2–3 min", "notes": "" },
+            { "name": "Glute-Ham Raise / Nordic Ham Curl", "warm_up_sets": 0, "sets": 4, "reps": "10–12", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Leg Extension", "warm_up_sets": 1, "sets": 4, "reps": "12–15", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Seated Calf Raise", "warm_up_sets": 0, "sets": 5, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" },
+            { "name": "Roman Chair Leg Raise", "warm_up_sets": 0, "sets": 4, "reps": "15–20", "rpe": "9–10", "rest": "1–2 min", "notes": "" }
+        ]},
+        { "day": 7, "label": "Rest Day — Program Complete", "activities": [] }
+      ]
+    }
+  ]
+}
