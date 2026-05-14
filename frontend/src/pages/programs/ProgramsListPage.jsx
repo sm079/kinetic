@@ -4,7 +4,7 @@ import Icon from '../../components/ui/Icon';
 import { Skeleton } from '../../components/ui/Skeleton';
 import {
   apiGetPrograms, apiDeleteProgram, apiGetTemplates, apiGetTemplate,
-  apiImportTemplate, apiGetActiveProgram, apiFollowProgram, apiUnfollowProgram,
+  apiImportTemplate, apiGetActiveProgram, apiUnfollowProgram,
   apiGetWorkouts, apiDeleteWorkout, apiExportWorkouts,
 } from '../../lib/api';
 import { hydrateActivitiesForTracker } from '../../lib/workout';

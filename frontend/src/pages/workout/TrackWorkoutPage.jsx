@@ -471,20 +471,6 @@ export default function TrackWorkoutPage() {
     setStartingSession(false);
   }
 
-  function handleResumeActive() {
-    if (!activeProgram?.current_day_data) return;
-    const d = activeProgram.current_day_data;
-    setActivities(hydrateActivitiesForTracker(d.activities, units));
-    setWorkoutName(`${activeProgram.name} — W${d.week} D${d.day}${d.label ? ` (${d.label})` : ''}`);
-    setProgramContext({
-      programId: activeProgram.id,
-      programName: activeProgram.name,
-      week: d.week,
-      day: d.day,
-      dayLabel: d.label ?? null,
-    });
-  }
-
   async function handleLoadDay(day, prog, week) {
     setStartingSession(true);
     let raw = day.activities;

@@ -54,15 +54,15 @@ async def test_delete_workout(client, auth_headers):
     create_res = await client.post("/api/workouts", json=WORKOUT_PAYLOAD, headers=auth_headers)
     workout_id = create_res.json()["id"]
     del_res = await client.delete(f"/api/workouts/{workout_id}", headers=auth_headers)
-    assert del_res.status_code == 200
+    assert del_res.status_code == 204
     get_res = await client.get(f"/api/workouts/{workout_id}", headers=auth_headers)
     assert get_res.status_code == 404
 
 
 async def test_workout_isolated_per_user(client):
     """Two users should not see each other's workouts."""
-    user_a = {"email": "a@example.com", "display_name": "A", "password": "Pass1!", "password_confirm": "Pass1!"}
-    user_b = {"email": "b@example.com", "display_name": "B", "password": "Pass1!", "password_confirm": "Pass1!"}
+    user_a = {"email": "a@example.com", "display_name": "A", "password": "TestPass1!", "password_confirm": "TestPass1!"}
+    user_b = {"email": "b@example.com", "display_name": "B", "password": "TestPass1!", "password_confirm": "TestPass1!"}
 
     tok_a = (await client.post("/api/auth/register", json=user_a)).json()["access_token"]
     tok_b = (await client.post("/api/auth/register", json=user_b)).json()["access_token"]

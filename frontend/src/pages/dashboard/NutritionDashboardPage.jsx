@@ -1,4 +1,4 @@
-import { useState, useEffect, useCallback, useRef } from 'react';
+import { useState, useEffect, useRef } from 'react';
 import Icon from '../../components/ui/Icon';
 import { apiGetNutritionLog, apiUpdateNutritionLog, apiGetNutritionHistory, apiExportNutrition, apiAnalyzeFood } from '../../lib/api';
 

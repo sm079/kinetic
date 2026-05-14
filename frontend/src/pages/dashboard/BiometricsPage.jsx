@@ -118,7 +118,7 @@ function MetricSelect({ value, onChange }) {
 
 // ── Trend chart ────────────────────────────────────────────────────────────
 
-function TrendChart({ data, color, isWeight, kgToDisplay, unit }) {
+function TrendChart({ data, color, isWeight, kgToDisplay }) {
   const displayData = isWeight
     ? data.map(d => ({ ...d, value: kgToDisplay(d.value) }))
     : data;

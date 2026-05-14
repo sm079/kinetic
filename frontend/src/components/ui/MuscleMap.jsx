@@ -203,7 +203,7 @@ export default function MuscleMap({ primary = [], secondary = [], gender = 'male
         {baseOk
           ? <canvas ref={canvasRef} className="w-full h-auto border border-[#1e1e1e] rounded-xl" />
           : <div className="w-full h-72 flex items-center justify-center text-zinc-700 text-xs text-center leading-relaxed border border-[#1e1e1e] rounded-xl">
-              Place images in<br />/images/{gender}/
+              Place images in<br />frontend/public/images/{gender}/
             </div>
         }
         {drawing && baseOk && (

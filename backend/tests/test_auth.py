@@ -12,7 +12,7 @@ REG_PAYLOAD = {
 
 async def test_register_returns_tokens(client):
     res = await client.post("/api/auth/register", json=REG_PAYLOAD)
-    assert res.status_code == 200
+    assert res.status_code == 201
     body = res.json()
     assert "access_token" in body
     assert "refresh_token" in body
@@ -65,7 +65,7 @@ async def test_logout_blocks_token(client):
         json={"refresh_token": refresh},
         headers={"Authorization": f"Bearer {access}"},
     )
-    assert res.status_code == 200
+    assert res.status_code == 204
 
     # After logout, the refresh token should be rejected
     res2 = await client.post(

@@ -9,6 +9,7 @@ python-jose[cryptography]
 pydantic_settings
 python-multipart
 fastapi
+httpx
 uvicorn[standard]
 redis
 langgraph

@@ -39,31 +39,19 @@ async def reset_db():
 @pytest_asyncio.fixture
 async def client(reset_db):
     """HTTPX async client wired to the FastAPI app via ASGITransport."""
-    # Patch the lifespan so we skip real MongoDB / Redis startup checks
-    from unittest.mock import AsyncMock, patch, MagicMock
+    # ASGITransport skips the lifespan, so the real MongoDB / Redis startup
+    # checks never run. get_redis() is called directly rather than through
+    # Depends, so swap the cached client instead of using dependency_overrides.
     import fakeredis.aioredis as fakeredis
-
-    fake_redis = fakeredis.FakeRedis()
-
-    async def fake_lifespan(app):
-        from contextlib import asynccontextmanager
-        # Already initialised above in reset_db
-        yield
-
-    # We need to bypass the real lifespan; easiest is to import app and replace
-    # the startup events with no-ops via dependency_overrides.
+    from app.core import redis as redis_module
     from main import app
-    from app.core.redis import get_redis
 
-    async def _fake_get_redis():
-        return fake_redis
-
-    app.dependency_overrides[get_redis] = _fake_get_redis
+    redis_module._client = fakeredis.FakeRedis(decode_responses=True)
 
     async with AsyncClient(transport=ASGITransport(app=app), base_url="http://test") as ac:
         yield ac
 
-    app.dependency_overrides.pop(get_redis, None)
+    redis_module._client = None
 
 
 @pytest_asyncio.fixture
@@ -76,6 +64,6 @@ async def auth_headers(client):
         "password_confirm": "TestPass1!",
     }
     res = await client.post("/api/auth/register", json=payload)
-    assert res.status_code == 200, res.text
+    assert res.status_code == 201, res.text
     token = res.json()["access_token"]
     return {"Authorization": f"Bearer {token}"}

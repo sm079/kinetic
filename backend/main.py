@@ -89,12 +89,6 @@ async def lifespan(app: FastAPI):
 
 app = FastAPI(lifespan=lifespan)
 
-# Serve the project-root /images directory (muscle body maps)
-_IMAGES_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "images")
-if os.path.isdir(_IMAGES_DIR):
-    from fastapi.staticfiles import StaticFiles
-    app.mount("/images", StaticFiles(directory=_IMAGES_DIR), name="images")
-
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],

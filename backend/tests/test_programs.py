@@ -68,7 +68,7 @@ async def test_delete_program(client, auth_headers):
     create_res = await client.post("/api/programs", json=PROGRAM_PAYLOAD, headers=auth_headers)
     prog_id = create_res.json()["id"]
     del_res = await client.delete(f"/api/programs/{prog_id}", headers=auth_headers)
-    assert del_res.status_code == 200
+    assert del_res.status_code == 204
     get_res = await client.get(f"/api/programs/{prog_id}", headers=auth_headers)
     assert get_res.status_code == 404
 

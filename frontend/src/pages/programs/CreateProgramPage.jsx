@@ -519,7 +519,7 @@ function Field({ label, children }) {
 // ── Week Accordion ─────────────────────────────────────────────────────────
 
 function WeekAccordion({
-  week, wi, isOpen, onToggle, onRemove, canRemove,
+  week, isOpen, onToggle, onRemove, canRemove,
   onAddDay, onRemoveDay, onUpdateDay,
   onAddActivity, onRemoveActivity, onUpdateActivity,
   onAddSet, onRemoveSet, onUpdateSet,

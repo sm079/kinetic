@@ -1,6 +1,5 @@
 import base64
 import json
-import os
 import re
 from datetime import datetime, timezone, timedelta
 
@@ -8,6 +7,7 @@ import httpx
 from fastapi import APIRouter, Depends, HTTPException, UploadFile, File
 
 from app.core.auth import get_current_user
+from app.core.config import settings
 from app.models.user import User
 from app.models.nutrition import NutritionLog, Meal, FoodItem
 from app.schemas.nutrition import NutritionLogUpdateRequest, NutritionLogResponse
@@ -152,7 +152,7 @@ async def analyze_food_image(
     user: User = Depends(get_current_user),
 ):
     """Analyze a food image and return estimated nutrition info using Llama 4 Scout vision."""
-    api_key = os.getenv("GROQ_API_KEY")
+    api_key = settings.groq_api_key
     if not api_key:
         raise HTTPException(status_code=503, detail="Vision analysis not configured")
 

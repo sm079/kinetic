@@ -7,7 +7,6 @@ import {
   apiGetConversation,
   apiListConversations,
   apiDeleteConversation,
-  apiSeedConversation,
   apiGetWorkouts,
   apiUpdateConversation,
   apiSetActiveBranch,
@@ -102,7 +101,6 @@ function buildDisplayNodes(allNodes, activeTipId, fallbackMessages) {
   for (let i = 0; i < thread.length; i += 2) {
     const userMsg = thread[i];
     if (!userMsg || userMsg.role !== 'user') continue;
-    const aiMsg = thread[i + 1];
 
     const pKey = userMsg.parent_id ?? '__root__';
     const siblings = (byParent[pKey] || [])
@@ -169,7 +167,7 @@ function MarkdownRenderer({ content }) {
   function renderInline(text, key) {
     // Pattern order matters: code first, then bold+italic, then bold, then italic, then links
     const parts = [];
-    const re = /(`[^`]+`|\*\*\*(.+?)\*\*\*|\*\*(.+?)\*\*|__(.+?)__|\*(.+?)\*|_(.+?)_|\[([^\]]+)\]\((https?:\/\/[^\)]+)\)|(https?:\/\/[^\s]+))/g;
+    const re = /(`[^`]+`|\*\*\*(.+?)\*\*\*|\*\*(.+?)\*\*|__(.+?)__|\*(.+?)\*|_(.+?)_|\[([^\]]+)\]\((https?:\/\/[^)]+)\)|(https?:\/\/[^\s]+))/g;
     let last = 0;
     let m;
     let idx = 0;
